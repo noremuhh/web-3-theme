@@ -146,3 +146,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_listing";
 
 
+// - - - - - - - - - - Your Overrides
+body {
+    background: red !important;
+}
