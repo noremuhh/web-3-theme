@@ -21,13 +21,17 @@ We've included everything you need to create engaging posts about your work, and
 You can create lists:
 
 * Simple bulleted lists
+
 * Like this one
+
 * Are cool
 
 And:
 
 1. Numbered lists
+
 2. Like this other one
+
 3. Are great too
 
 You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
@@ -51,22 +55,20 @@ You can throw in some horizontal rules too:
 Here's a really neat custom feature we added – galleries:
 
 <div class="gallery" data-columns="4">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+<img src="/images/demo/demo-portrait.jpg">
+<img src="/images/demo/demo-landscape.jpg">
+<img src="/images/demo/demo-square.jpg">
+<img src="/images/demo/demo-landscape-2.jpg">
 </div>
 
 Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
 
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
+    <div class="gallery" data-columns="3">
+        <img src="/images/demo/demo-portrait.jpg">
+        <img src="/images/demo/demo-landscape.jpg">
+        <img src="/images/demo/demo-square.jpg">
+        <img src="/images/demo/demo-landscape-2.jpg">
+    </div>
 
 *See what we did there? Code and syntax highlighting is built-in too!*
 
@@ -81,8 +83,8 @@ Here's another gallery with only one column, which creates a carousel slide-show
 A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
 
 <div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+<img src="/images/demo/demo-landscape.jpg">
+<img src="/images/demo/demo-landscape-2.jpg">
 </div>
 
 ### What about videos?
