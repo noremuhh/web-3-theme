@@ -36,6 +36,9 @@ defaults:
     type: projects
   values:
     layout: project
+    subtitle: 
+    featured_image: 
+    excerpt: 
 site: Web 3 Theme
 markdown: kramdown
 kramdown:
